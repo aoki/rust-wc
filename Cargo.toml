@@ -9,6 +9,7 @@ readme = "README.md"
 categories = ["command-line-utilities"] # https://crates.io/category_slugs
 repository = "https://github.com/aoki/wordcount"
 keywords = ["example", "frequency", "text"]
+exclude = ["text.txt", "tests/*"]
 
 [dependencies]
 regex = "1.5.4"
